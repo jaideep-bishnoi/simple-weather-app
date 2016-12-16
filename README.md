@@ -1,6 +1,8 @@
 
 
 This is a simple weather app based on angular 2 using openweathermap API
+
+
 To get started,
 
 
