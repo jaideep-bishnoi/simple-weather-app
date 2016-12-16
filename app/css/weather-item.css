@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Antic+Slab);
+.col-1 
+{
+	display: inline-block;
+	width: 40%;
+}
+
+.col-1 
+h3 
+{
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 45px;
+}
+
+.col-2 
+{
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	text-align: right;
+}
+
+.temperature 
+{
+	font-size: 25px;
+}
+
+.weather-list {
+	margin: 20px auto;
+	width: 70%;
+}
+
+.weather-element {
+	box-shadow: 1px 1px 6px #ccc;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+.weather-search {
+	padding: 20px 10px 0px 490px;
+	margin: 10px 0;	
+	font-size: 30px;
+	font-family: 'Antic Slab', serif;
+}
+
+.weather-type {
+	font-size: 25px;
+}
+
+.button {
+	margin: 8px;
+	color: white;
+	background-color: #102;
+}

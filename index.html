@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Angular 2 QuickStart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Load libraries (Note: IE required polyfills, in this exact order_ -->
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
+    <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
+
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script src="node_modules/angular2/bundles/router.dev.js"></script>
+    <script src="node_modules/angular2/bundles/http.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="app/css/main-style.css">
+    <!-- Configure SystemJS -->
+    <script>
+        System.config({
+            packages: {
+                app: {
+                    format: 'register',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+        System.import('app/js/main').then(null, console.error.bind(console));
+    </script>
+</head>
+<body class="container-full">
+<div class="container-full">
+    <br />
+    <br />
+    <my-app>Loading...</my-app>
+</div>
+</body>
+<footer>
+<div class="container">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <hr>
+        <div class="text-center center-block">
+                <p class="love">Made with <i class="fa fa-heart"></i> by Jaideep Bishnoi</p>
+                <a href="https://www.facebook.com/jaideep.bishnoi.1"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="https://twitter.com/jaideep_bishnoi"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href="https://github.com/jaideep-bishnoi/simple-weather-app"><i id="social-em" class="fa fa-github fa-3x social"></i></a>
+                <br />
+                <p class="txt-railway">2016 - All Rights Reserverd</p>
+</div>
+</div>
+</footer>
+</html>
