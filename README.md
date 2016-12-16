@@ -10,7 +10,7 @@ Run `npm install` then `npm start`
 
 Have a look 
 
-![simple weather app](https://github.com/jaideep-bishnoi/simple-weather-app/blob/master/weather-app.png?raw=true "App Demo"
+![simple weather app](https://github.com/jaideep-bishnoi/simple-weather-app/blob/master/weather-app.png "App Demo"
 
 
 ### Angular 2
